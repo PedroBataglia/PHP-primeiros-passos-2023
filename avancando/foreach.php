@@ -21,7 +21,11 @@ $conta3 = [
     'profissao' => 'medico',
 ];
 
-$contasCorrentes = [$conta1, $conta2, $conta3];
+$contasCorrentes = [
+    conta1,
+    $conta2,
+    $conta3
+];
 
 foreach ($contasCorrentes as $conta) {
     echo $conta['titular'].PHP_EOL;
