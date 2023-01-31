@@ -34,6 +34,6 @@ $gi = [
 
 $cblol = [$loud, $red, $furia, $gi];
 
-foreach($cblol as $times) {
-    echo "O melhor adc do campeonato é $times[adc]".PHP_EOL;
+foreach($cblol as $adc => $times) {
+    echo "indice $adc -- O melhor adc do campeonato é $times[adc]".PHP_EOL;
 }
