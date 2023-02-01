@@ -14,7 +14,11 @@ function sacar($valorSaque, $conta) {
     return $conta;
 }
 
-function depositar($valorDeposito, $conta) {}
+function depositar($valorDeposito, $conta) {
+    $conta['saldo'] += $valorDeposito;
+    echo "Valor de R$$valorDeposito com sucesso, saldo total de $conta[saldo]".PHP_EOL;
+    return $conta;
+}
 
 $contasCorrentes = [
     '23094293' => [
@@ -35,7 +39,9 @@ $contasCorrentes = [
         'profissao' => 'medico',]
 ];
 
-$contasCorrentes['32423423'] =  sacar(500, $contasCorrentes['32423423']);
+#$contasCorrentes['32423423'] =  sacar(500, $contasCorrentes['32423423']);
+
+$contasCorrentes['23094293'] = depositar(300, $contasCorrentes['23094293']);
 
 
 #if ($valorSaque > $contasCorrentes['32423423']['saldo']) {
