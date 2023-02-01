@@ -16,3 +16,13 @@ function tabuada($num) {
 }
 
 tabuada($somandoNumeros);
+
+function fatorial($num) {
+    $total = $num;
+    for ($i = $num; $i > 1; $i--) {
+        $total *= ($i - 1);
+    }
+    echo $total;
+}
+
+fatorial(9);
