@@ -18,5 +18,4 @@ function exibeArray($lista) {
         echo "$item".PHP_EOL;
     }
 }
-
 exibeArray($pessoa);
