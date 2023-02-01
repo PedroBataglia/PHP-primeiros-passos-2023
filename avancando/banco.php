@@ -1,38 +1,38 @@
 <?php
 
 
-$carrosNovos = [
-    '123094' => [
-        'marca' => 'Ferrari',
-        'modelo' => 'F389',
-        'ano' => 2018,
-        'motor' => 'v8',
+
+
+$contasCorrentes = [
+    '23094293' => [
+        'titular' => 'Pedro',
+        'saldo' => 1000,
+        'salario' => 1500,
+        'profissao' => 'programador',
     ],
-    '343242' => [
-        'marca' => 'Fiat',
-        'modelo' => 'Fiat 147',
-        'ano' => 2007,
-        'motor' => 'v2'
+    '32423423' => [
+        'titular' => 'Vinicius',
+        'saldo' => 5000,
+        'salario' => 7000,
+        'profissao' => 'desenvolvedor'
     ],
-    '342323' => [
-        'marca' => 'volkswagen',
-        'modelo' => 'Cross',
-        'ano' => 2017,
-        'motor' => 'v7'
-    ],
+    '287348972' => ['titular' => 'Marcos',
+        'saldo' => 1500,
+        'salario' => 3000,
+        'profissao' => 'medico',]
 ];
+$valorSaque = 500;
 
-$carrosNovos['323422'] = [
-    'marca' => "Lamburguini",
-    'modelo' => "elementor",
-    'ano' => 2022,
-    'motor' => 'v9',
-];
 
-foreach ($carrosNovos as $num => $carro) {
-    echo " Modelo de número $num:" . PHP_EOL;
-    echo $carro['modelo'] . PHP_EOL;
-    echo $carro['ano'] . PHP_EOL;
-    echo $carro['motor'] . PHP_EOL;
-
+  if ($valorSaque > $contasCorrentes['32423423']['saldo']) {
+      echo "não é possível realizar o saque, você não tem saldo suficiente".PHP_EOL;
+  } else {
+      $contasCorrentes['32423423']['saldo'] -= $valorSaque;
+      echo "Saque realizdo no valor de $valorSaque, valor atual de saldo: ".$contasCorrentes['32423423']['saldo'].PHP_EOL;
+  }
+foreach ($contasCorrentes as $conta) {
+    echo $conta['titular'].PHP_EOL;
+    echo $conta['saldo'].PHP_EOL;
+    echo $conta['profissao'].PHP_EOL;
+    echo "-=-=-=-=-=-=-=-=-=-=-=-".PHP_EOL;
 }
