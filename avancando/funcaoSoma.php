@@ -1,5 +1,7 @@
 <?php
 
+$notas = [9, 10, 9, 7];
+
 function soma($numA, $numB) {
     return $numA + $numB;
 }
@@ -34,3 +36,14 @@ function potencia($num, $expoente) {
 }
 
 potencia(2, 32);
+
+function media($nota) {
+        $soma = 0;
+    for ($i = 0; $i < count($nota); $i++) {
+        $soma += $nota[$i];
+    }
+    $media = $soma / count($nota);
+    echo "com base nas notas sua média é $media";
+}
+
+media($notas);
