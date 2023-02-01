@@ -1,10 +1,11 @@
 <?php
 
-function exibeMensagem($mensagem) {
+function exibeMensagem(string $mensagem) {
     echo $mensagem.PHP_EOL;
 }
 
-function sacar($valorSaque, $conta) {
+function sacar(array $conta, float $valorSaque):array
+{
     if($valorSaque > $conta['saldo']) {
         exibeMensagem("Não é possível realizar o saque, você não tem saldo suficente");
     } else {
@@ -14,9 +15,15 @@ function sacar($valorSaque, $conta) {
     return $conta;
 }
 
-function depositar($valorDeposito, $conta) {
-    $conta['saldo'] += $valorDeposito;
-    echo "Valor de R$$valorDeposito com sucesso, saldo total de $conta[saldo]".PHP_EOL;
+function depositar(array $conta, float $valorDeposito): array
+{
+    if ($valorDeposito < 0) {
+        exibeMensagem("O valor mínimo de deposito é 1");
+    } else {
+        $conta['saldo'] += $valorDeposito;
+        exibeMensagem( "Valor de R$$valorDeposito com sucesso, saldo total de $conta[saldo]");
+
+    }
     return $conta;
 }
 
@@ -39,7 +46,7 @@ $contasCorrentes = [
         'profissao' => 'medico',]
 ];
 
-#$contasCorrentes['32423423'] =  sacar(500, $contasCorrentes['32423423']);
+$contasCorrentes['32423423'] =  sacar(500, $contasCorrentes['32423423']);
 
 $contasCorrentes['23094293'] = depositar(300, $contasCorrentes['23094293']);
 
