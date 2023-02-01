@@ -22,7 +22,15 @@ function fatorial($num) {
     for ($i = $num; $i > 1; $i--) {
         $total *= ($i - 1);
     }
-    echo $total;
+    echo $total.PHP_EOL;
 }
 
 fatorial(9);
+
+
+function potencia($num, $expoente) {
+    $total = $num ** $expoente;
+    echo $total;
+}
+
+potencia(2, 32);
