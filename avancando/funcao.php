@@ -4,14 +4,17 @@ function exibeMensagem($mensagem) {
     echo $mensagem.PHP_EOL;
 }
 
-function validaSaldo($valorSaque, $id) {
-    if($valorSaque > $id['saldo']) {
+function sacar($valorSaque, $conta) {
+    if($valorSaque > $conta['saldo']) {
         exibeMensagem("Não é possível realizar o saque, você não tem saldo suficente");
     } else {
-        $id['saldo'] -= $valorSaque;
-        exibeMensagem("Saque realizdo no valor de $valorSaque, valor atual de saldo: ".$id['saldo']);
+        $conta['saldo'] -= $valorSaque;
+        exibeMensagem("Saque realizdo no valor de $valorSaque, valor atual de saldo: ".$conta['saldo']);
     }
+    return $conta;
 }
+
+function depositar($valorDeposito, $conta) {}
 
 $contasCorrentes = [
     '23094293' => [
@@ -32,7 +35,7 @@ $contasCorrentes = [
         'profissao' => 'medico',]
 ];
 
-validaSaldo(500, $contasCorrentes['32423423']);
+$contasCorrentes['32423423'] =  sacar(500, $contasCorrentes['32423423']);
 
 
 #if ($valorSaque > $contasCorrentes['32423423']['saldo']) {
