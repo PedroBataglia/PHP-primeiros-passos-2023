@@ -20,9 +20,13 @@ $pessoa3 = [
 
 $pessoas = [$pessoa1, $pessoa2, $pessoa3];
 
-// entrando em todos os elementos 
+// entrando em todos os elementos
 for ($i = 0; $i < count($pessoas); $i++) {
     foreach ($pessoas[$i] as $pessoa) {
         echo $pessoa.PHP_EOL;
     }
+}
+
+foreach($pessoas as $pessoa) {
+    echo $pessoa['nome'].PHP_EOL;
 }
