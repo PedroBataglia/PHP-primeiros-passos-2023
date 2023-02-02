@@ -1,6 +1,6 @@
 <?php
-
-include 'funcao.php';
+// include ou require
+require 'funcao.php';
 
 
 
