@@ -4,7 +4,7 @@ function exibeMensagem(string $mensagem) {
     echo $mensagem.PHP_EOL;
 }
 
-function sacar(array $conta, float $valorSaque):array
+function sacar(array $conta, float $valorSaque) : array
 {
     if($valorSaque > $conta['saldo']) {
         exibeMensagem("Não é possível realizar o saque, você não tem saldo suficente");
@@ -27,7 +27,7 @@ function depositar(array $conta, float $valorDeposito): array
     return $conta;
 }
 
-$contasCorrentes = [
+/*$contasCorrentes = [
     '23094293' => [
         'titular' => 'Pedro',
         'saldo' => 1000,
@@ -44,11 +44,11 @@ $contasCorrentes = [
         'saldo' => 1500,
         'salario' => 3000,
         'profissao' => 'medico',]
-];
+];*/
 
-$contasCorrentes['32423423'] =  sacar(500, $contasCorrentes['32423423']);
+#$contasCorrentes['32423423'] =  sacar($contasCorrentes['32423423'],500);
 
-$contasCorrentes['23094293'] = depositar(300, $contasCorrentes['23094293']);
+#$contasCorrentes['23094293'] = depositar( $contasCorrentes['23094293'], 300);
 
 
 #if ($valorSaque > $contasCorrentes['32423423']['saldo']) {

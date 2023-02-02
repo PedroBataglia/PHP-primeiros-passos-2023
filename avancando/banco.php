@@ -1,9 +1,8 @@
 <?php
 
-function exibeMensagem($mensagem)
-{
-    echo $mensagem.PHP_EOL;
-}
+include 'funcao.php';
+
+
 
 
 $contasCorrentes = [
@@ -26,13 +25,11 @@ $contasCorrentes = [
 ];
 $valorSaque = 500;
 
+$contasCorrentes['32423423'] =  sacar( $contasCorrentes['32423423'], 500);
 
-  if ($valorSaque > $contasCorrentes['32423423']['saldo']) {
-      echo "não é possível realizar o saque, você não tem saldo suficiente".PHP_EOL;
-  } else {
-      $contasCorrentes['32423423']['saldo'] -= $valorSaque;
-      echo "Saque realizdo no valor de $valorSaque, valor atual de saldo: ".$contasCorrentes['32423423']['saldo'].PHP_EOL;
-  }
+$contasCorrentes['23094293'] = depositar( $contasCorrentes['23094293'], 300);
+
+
 foreach ($contasCorrentes as $cpf => $conta) {
     exibeMensagem(
         "$cpf ${conta['titular']} ${conta['saldo']}"
