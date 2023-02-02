@@ -1,6 +1,9 @@
 <?php
 
-
+function exibeMensagem($mensagem)
+{
+    echo $mensagem.PHP_EOL;
+}
 
 
 $contasCorrentes = [
@@ -30,9 +33,8 @@ $valorSaque = 500;
       $contasCorrentes['32423423']['saldo'] -= $valorSaque;
       echo "Saque realizdo no valor de $valorSaque, valor atual de saldo: ".$contasCorrentes['32423423']['saldo'].PHP_EOL;
   }
-foreach ($contasCorrentes as $conta) {
-    echo $conta['titular'].PHP_EOL;
-    echo $conta['saldo'].PHP_EOL;
-    echo $conta['profissao'].PHP_EOL;
-    echo "-=-=-=-=-=-=-=-=-=-=-=-".PHP_EOL;
+foreach ($contasCorrentes as $cpf => $conta) {
+    exibeMensagem(
+        $cpf. " ".$conta['titular']. " ".$conta['saldo']
+    );
 }
