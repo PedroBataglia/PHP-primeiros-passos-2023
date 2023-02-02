@@ -35,6 +35,6 @@ $valorSaque = 500;
   }
 foreach ($contasCorrentes as $cpf => $conta) {
     exibeMensagem(
-        $cpf. " ".$conta['titular']. " ".$conta['saldo']
+        "$cpf $conta[titular] $conta[saldo]"
     );
 }
