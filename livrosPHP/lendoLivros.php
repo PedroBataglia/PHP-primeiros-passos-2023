@@ -25,5 +25,8 @@ foreach ($listaDeLivros as $num => $livro) {
     echo "$num:".PHP_EOL;
     echo $livro['Nome'].PHP_EOL;
     echo $livro['Autor'].PHP_EOL;
+    echo $livro['Ano'].PHP_EOL;
+    echo $livro['Nota'].PHP_EOL;
 }
+
 
