@@ -1,8 +1,13 @@
 <?php
 
+function exibeConta(array $conta)
+{
+    echo  "<li>Titular: $conta[titular]. Saldo: {$conta['saldo']}</li>";
+}
 
-function exibeMensagem(string $mensagem) {
-    echo $mensagem.PHP_EOL;
+function exibeMensagem(string $mensagem)
+{
+    echo $mensagem.'<br>';
 }
 
 function sacar(array $conta, float $valorSaque) : array

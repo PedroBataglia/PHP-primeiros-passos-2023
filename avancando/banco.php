@@ -30,9 +30,9 @@ titularComLetraMaiuscula($contasCorrentes['23094293']);
 
 unset($contasCorrentes['287348972']);
 
+
+echo "<ul>";
 foreach ($contasCorrentes as $cpf => $conta) {
-    ['titular' => $titular, 'saldo' => $saldo] = $conta;
-    exibeMensagem(
-        "$cpf $titular $saldo"
-    );
+    exibeConta($conta);
 }
+echo "</ul>";
