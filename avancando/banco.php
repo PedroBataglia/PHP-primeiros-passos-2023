@@ -28,9 +28,10 @@ $contasCorrentes['23094293'] = depositar( $contasCorrentes['23094293'], 300);
 
 titularComLetraMaiuscula($contasCorrentes['23094293']);
 
+unset($contasCorrentes['287348972']);
 
 foreach ($contasCorrentes as $cpf => $conta) {
-    list('titular' => $titular, 'saldo' => $saldo) = $conta;
+    ['titular' => $titular, 'saldo' => $saldo] = $conta;
     exibeMensagem(
         "$cpf $titular $saldo"
     );
