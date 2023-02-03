@@ -2,9 +2,6 @@
 // include ou require
 require 'funcao.php';
 
-
-
-
 $contasCorrentes = [
     '23094293' => [
         'titular' => 'Pedro',
