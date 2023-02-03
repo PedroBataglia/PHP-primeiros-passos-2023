@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4d7be8-68b0-4338-8df4-a71d37f2e9c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/avancando/banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/avancando/banco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avancando/funcao.php" beforeDir="false" afterPath="$PROJECT_DIR$/avancando/funcao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avancando/listas.php" beforeDir="false" afterPath="$PROJECT_DIR$/avancando/listas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avancando/listIdade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674823047004</updated>
       <workItem from="1674823048624" duration="14970000" />
-      <workItem from="1675103715077" duration="37228000" />
+      <workItem from="1675103715077" duration="38014000" />
     </task>
     <servers />
   </component>
