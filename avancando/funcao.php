@@ -1,5 +1,6 @@
 <?php
 
+
 function exibeMensagem(string $mensagem) {
     echo $mensagem.PHP_EOL;
 }
@@ -28,5 +29,8 @@ function depositar(array $conta, float $valorDeposito): array
 }
 
 
-
+function titularComLetraMaiuscula(array &$conta)
+{
+    $conta['titular'] = mb_strtoupper($conta['titular']);
+}
 

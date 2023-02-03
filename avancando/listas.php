@@ -7,6 +7,9 @@ $listaIdade = [23, 43, 53, 16, 18, 17, 23, 22, 21, 32]; // 10 valores no total
 
 $listaIdade[] = 20;
 
+list($idadeVinicius, $idadeMaria, $idadeJoao) = $idadeLista;
+
+
 
 $umaIdade = $listaIdade[2];
 
