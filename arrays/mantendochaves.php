@@ -11,3 +11,9 @@ $notas = [
 
 ksort($notas);
 var_dump($notas);
+
+if (gettype($notas) === 'array') {
+    echo "Sim, isso é um array";
+} else {
+    echo "Isso não é um array";
+}
