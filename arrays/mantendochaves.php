@@ -19,10 +19,9 @@ if (gettype($notas) === 'array') {
 }
 
 
-function funcao(array $valor) {
-    for ($i = 0; $i < count($valor); $i++) {
-        echo $valor[$i];
-    }
-}
+
 
 var_dump(array_is_list($notas));
+var_dump(isset($notas['Pedro']));
+
+
