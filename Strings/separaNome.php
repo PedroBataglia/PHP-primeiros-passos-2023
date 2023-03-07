@@ -8,6 +8,9 @@ $espaco = strpos($nomeCompleto, ' ');
 //echo substr($nomeCompleto, $espaco + 1);
 
 var_dump(explode(' ', $nomeCompleto));
-$nomeItaliano = explode(' ', $nomeCompleto);
+$nomeItaliano = explode(' ', $nomeCompleto, 3);
 
-echo "$nomeItaliano[0] $nomeItaliano[3]";
+echo "$nomeItaliano[0] $nomeItaliano[2]".PHP_EOL;
+
+$nomeSemEspaco = trim($nomeCompleto, ' ');
+echo $nomeSemEspaco;
