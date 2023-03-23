@@ -2,5 +2,7 @@
 
 class Conta
 {
-    // definição dos dados
+    public string $cpfTitular;
+    public string $nomeTItular;
+    public  float $saldo;
 }
