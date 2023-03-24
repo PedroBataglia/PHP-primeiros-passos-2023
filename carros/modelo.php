@@ -4,7 +4,7 @@ class Carro
 {
     public string $modelo;
     public string $marca;
-    public int $ano;
+    public float $ano;
     public string $dono;
 
     public function trocarModelo($novoModelo)
