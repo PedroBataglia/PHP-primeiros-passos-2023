@@ -2,8 +2,8 @@
 
 class Conta
 {
-    public string $cpfTitular;
-    public string $nomeTItular;
+    private string $cpfTitular;
+    private string $nomeTitular;
     private  float $saldo = 0;
 
     public function sacar(float $valorASacar)
@@ -40,5 +40,27 @@ class Conta
     {
         return $this->saldo;
     }
+
+    public function definirCpfTitular(string $cpf): void
+    {
+        $this->cpfTitular = $cpf;
+    }
+
+
+    public function recuperarCpfTitular(): string
+    {
+        return $this->cpfTitular;
+    }
+
+    public function definirNomeTitular(string $nome): void
+    {
+        $this->nomeTitular = $nome;
+    }
+
+    public function recuperarNomeTitular(): string
+    {
+        return $this->nomeTitular;
+    }
+
 }
 
