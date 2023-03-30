@@ -11,5 +11,10 @@ class Carro
     {
         $this->modelo = $novoModelo;
     }
+
+    public function atualizar( string $valorParaAlterar, $novoValor)
+    {
+        $this->$valorParaAlterar = $novoValor;
+    }
 }
 
