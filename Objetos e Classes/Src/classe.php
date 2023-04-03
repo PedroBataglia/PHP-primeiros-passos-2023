@@ -2,16 +2,24 @@
 
 class Conta
 {
-    private string $cpfTitular;
-    private string $nomeTitular;
+    private  $titular;
     private  float $saldo = 0;
+    private static $numeroDeContas = 0;
 
 
-    public function __construct(string $nomeTitular, string $cpfTitular, float $saldo)
+    public function __construct(Titular $titular)
     {
-        $this->nomeTitular = $nomeTitular;
-        $this->cpfTitular = $cpfTitular;
-        $this->saldo = $saldo;
+        $this->titular = $titular;
+        $this->saldo = 0;
+
+        self::$numeroDeContas++;
+    }
+
+    public function __destruct()
+    {
+        if (self::$numeroDeContas > 2) {
+            echo "Há mais de uma conta ativa";
+        }
     }
 
     public function sacar(float $valorASacar)
@@ -49,26 +57,21 @@ class Conta
         return $this->saldo;
     }
 
-    public function definirCpfTitular(string $cpf): void
+
+
+    public static function recuperarNumeroDeContas(): int
     {
-        $this->cpfTitular = $cpf;
+        return Conta::$numeroDeContas;
     }
 
+    public function reperarNomeTitular(): string
+    {
+        return $this->titular->recuperarNome();
+    }
 
     public function recuperarCpfTitular(): string
     {
-        return $this->cpfTitular;
+        return $this->titular->recuperarCpf();
     }
-
-    public function definirNomeTitular(string $nome): void
-    {
-        $this->nomeTitular = $nome;
-    }
-
-    public function recuperarNomeTitular(): string
-    {
-        return $this->nomeTitular;
-    }
-
 }
 
