@@ -2,11 +2,11 @@
 
 class Titular
 {
-    private string $cpf;
+    private $cpf;
     private string $nome;
 
 
-    public function __construct(string $cpf, string $nome)
+    public function __construct(Cpf $cpf, string $nome)
     {
 
         $this->cpf = $cpf;
@@ -14,10 +14,7 @@ class Titular
         $this->nome = $nome;
     }
 
-    public function recuperarCpf(): string
-    {
-        return $this->cpf;
-    }
+
 
     public function recuperarNome(): string
     {
