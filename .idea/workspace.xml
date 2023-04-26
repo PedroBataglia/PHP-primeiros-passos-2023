@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4d7be8-68b0-4338-8df4-a71d37f2e9c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/avancando/listIdade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Endereco.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Funcionario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heranca/banco.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heranca/src/conta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heranca/src/titular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Titular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/banco.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +36,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Estudos/Alura/PHP/base PHP&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Estudos/Alura/PHP/base PHP",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="banco.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Objetos e Classes/banco.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.banco.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674823047004</updated>
       <workItem from="1674823048624" duration="14970000" />
-      <workItem from="1675103715077" duration="38014000" />
+      <workItem from="1675103715077" duration="47688000" />
+      <workItem from="1675706988736" duration="9904000" />
+      <workItem from="1676383415526" duration="10123000" />
+      <workItem from="1676572244812" duration="5238000" />
+      <workItem from="1678127104422" duration="7423000" />
+      <workItem from="1678285518541" duration="6962000" />
+      <workItem from="1680093796525" duration="15708000" />
+      <workItem from="1682513178112" duration="5694000" />
     </task>
     <servers />
   </component>

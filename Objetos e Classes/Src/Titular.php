@@ -4,14 +4,16 @@ class Titular
 {
     private $cpf;
     private string $nome;
+    private Endereco $endereco;
 
 
-    public function __construct(Cpf $cpf, string $nome)
+    public function __construct(Cpf $cpf, string $nome, Endereco $endereco)
     {
 
         $this->cpf = $cpf;
         $this->validaTitular($nome);
         $this->nome = $nome;
+        $this->endereco = $endereco;
     }
 
 
@@ -27,5 +29,10 @@ class Titular
             echo "erro, o nome precisa conter mais de 5 caracteres";
             exit();
         }
+    }
+
+    public function recuperaEndereco(): Endereco
+    {
+        return $this->endereco;
     }
 }
