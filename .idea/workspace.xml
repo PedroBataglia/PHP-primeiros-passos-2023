@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4d7be8-68b0-4338-8df4-a71d37f2e9c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Pessoa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Funcionario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Titular.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +28,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Estudos/Alura/PHP/base PHP",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Estudos/Alura/PHP/base PHP&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="banco.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Objetos e Classes/banco.php">
       <CommandLine>
@@ -73,6 +70,7 @@
       <workItem from="1678285518541" duration="6962000" />
       <workItem from="1680093796525" duration="15708000" />
       <workItem from="1682513178112" duration="7817000" />
+      <workItem from="1682599789900" duration="743000" />
     </task>
     <servers />
   </component>
