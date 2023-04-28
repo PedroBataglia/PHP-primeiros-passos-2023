@@ -1,9 +1,16 @@
 <?php
 
-require_once 'Src/classe.php';
-require_once 'Src/Titular.php';
-require_once 'Src/Cpf.php';
-require_once 'Src/Endereco.php';
+require_once 'Src/Modelo/Pessoa.php';
+require_once 'Src/Modelo/Conta/Conta.php';
+require_once 'Src/Modelo/Conta/Titular.php';
+require_once 'Src/Modelo/Cpf.php';
+require_once 'Src/Modelo/Endereco.php';
+
+use Alura\Banco\Modelo\Conta\Titular;
+use Alura\Banco\Modelo\Endereco;
+use Alura\Banco\Modelo\Cpf;
+use Alura\Banco\Modelo\Conta\Conta;
+
 
 $endereco = new Endereco('São Paulo - Sp', 'Pq. São Rafael', 'Coruqueamas', '166');
 $Pedro = new Titular((new Cpf('123.123.123.43')), 'Pedro Henrique', $endereco);

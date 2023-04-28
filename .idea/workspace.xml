@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4d7be8-68b0-4338-8df4-a71d37f2e9c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Conta/Conta.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Cpf.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Cpf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Endereco.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Endereco.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Funcionario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Funcionario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Conta/Titular.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Conta/Titular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Conta/classe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Conta/classe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Conta/conta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/Src/Pessoa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/Src/Modelo/Pessoa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objetos e Classes/banco.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objetos e Classes/banco.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Estudos/Alura/PHP/base PHP&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Estudos/Alura/PHP/base PHP/Objetos e Classes",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Estudos\Alura\PHP\base PHP\Objetos e Classes\Src\Modelo" />
+      <recent name="C:\Estudos\Alura\PHP\base PHP\Objetos e Classes\Src\Modelo\Conta" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="banco.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Objetos e Classes/banco.php">
       <CommandLine>
@@ -70,7 +85,9 @@
       <workItem from="1678285518541" duration="6962000" />
       <workItem from="1680093796525" duration="15708000" />
       <workItem from="1682513178112" duration="7817000" />
-      <workItem from="1682599789900" duration="743000" />
+      <workItem from="1682599789900" duration="3825000" />
+      <workItem from="1682685091466" duration="3820000" />
+      <workItem from="1682691379996" duration="24000" />
     </task>
     <servers />
   </component>

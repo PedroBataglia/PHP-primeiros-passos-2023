@@ -1,15 +1,17 @@
 <?php
 
+namespace Alura\Banco\Modelo;
+
 class Pessoa
 {
 
     protected $nome;
     protected $cpf;
 
-    public function __construct(string $nome, CPF $cpf)
+    public function __construct(string $nome, Cpf $cpf)
     {
-        $this->nome = $nome;
         $this->validaTitular($nome);
+        $this->nome = $nome;
         $this->cpf = $cpf;
     }
 
