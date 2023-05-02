@@ -14,9 +14,5 @@ $novoFuncionario = new Funcionario('Pedro', 19, 'solteiro',
     new Time('1', 1),
     new Cargo('Programador', '2', '1800'));
 
-var_dump($novoFuncionario->recuperaNome());
-var_dump($novoFuncionario->recuperaIdade());
-var_dump($novoFuncionario->recuperaEstadoCivil());
-var_dump($novoFuncionario->recuperaSetor());
-var_dump($novoFuncionario->recuperaTime());
-var_dump($novoFuncionario->recuperaCargo());
+var_dump($novoFuncionario);
+
