@@ -5,12 +5,23 @@ namespace Funcionarios;
 class Time
 {
     protected string $id;
-    protected float $NumeroDemembros;
+    protected static $numeroDeMembros = 0;
 
-    public function __construct(string $id, float $NumeroDeMembros)
+    public function __construct(string $id )
     {
         $this->id = $id;
-        $this->NumeroDemembros = $NumeroDeMembros + 1;
+        self::$numeroDeMembros++;
     }
+
+    public function recuperaId()
+    {
+        return $this->id;
+    }
+
+    public function recuperaNumeroDeMembros()
+    {
+        return Time::$numeroDeMembros;
+    }
+
 }
 

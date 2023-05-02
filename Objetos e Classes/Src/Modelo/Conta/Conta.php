@@ -9,13 +9,14 @@ class Conta
     private  $titular;
     private  float $saldo = 0;
     private static $numeroDeContas = 0;
+    protected int $tipo;
 
 
-    public function __construct(Titular $titular)
+    public function __construct(Titular $titular, int $tipo)
     {
         $this->titular = $titular;
         $this->saldo = 0;
-
+        $this->tipo = $tipo;
         self::$numeroDeContas++;
     }
 
@@ -28,7 +29,11 @@ class Conta
 
     public function sacar(float $valorASacar)
     {
-        $tarifaDeSaque = $valorASacar * 0.05;
+        if ($this->tipo === 1) {
+            $tarifaDeSaque = $valorASacar * 0.05;
+        } else {
+            $tarifaDeSaque = $valorASacar * 0.03;
+        }
         $valorSaque = $tarifaDeSaque + $valorASacar;
         if ($valorSaque > $this->saldo) {
             echo "Saldo Indisponível";
