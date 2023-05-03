@@ -5,7 +5,7 @@ namespace Alura\Banco\Modelo\Funcionario;
 use Alura\Banco\Modelo\Cpf;
 use Alura\Banco\Modelo\Pessoa;
 
-class Funcionario extends Pessoa
+abstract class Funcionario extends Pessoa
 {
 
 
