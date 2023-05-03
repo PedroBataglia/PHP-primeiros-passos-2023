@@ -4,7 +4,7 @@ namespace Alura\Banco\Modelo\Conta;
 
 
 
-class Conta
+abstract class Conta
 {
     protected  $titular;
     protected  float $saldo = 0;

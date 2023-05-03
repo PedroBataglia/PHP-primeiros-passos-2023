@@ -5,7 +5,7 @@ require_once 'autoload.php';
 use Alura\Banco\Modelo\Conta\Titular;
 use Alura\Banco\Modelo\Endereco;
 use Alura\Banco\Modelo\Cpf;
-use Alura\Banco\Modelo\Conta\Conta;
+use Alura\Banco\Modelo\Conta\ContaCorrente;
 
 
 $endereco = new Endereco('São Paulo - Sp', 'Pq. São Rafael', 'Coruqueamas', '166');
@@ -19,4 +19,4 @@ echo $primeiraConta->recuperarSaldo(); // isso não é ok
 
 var_dump($primeiraConta);
 //var_dump($segundaConta);
-echo Conta::recuperarNumeroDeContas();
+echo ContaCorrente::recuperarNumeroDeContas();
