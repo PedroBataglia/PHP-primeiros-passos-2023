@@ -28,7 +28,7 @@ class Conta
 
     public function sacar(float $valorASacar)
     {
-        $tarifaDeSaque = $valorASacar * 0.05;
+        $tarifaDeSaque = $valorASacar * $this->percentualTarifa();
         $valorSaque = $tarifaDeSaque + $valorASacar;
         if ($valorSaque > $this->saldo) {
             echo "Saldo Indisponível";
@@ -47,16 +47,6 @@ class Conta
     }
 
 
-
-    public function transferir(float $valorATransferir, Conta $contaDestino): void
-    {
-        if ($valorATransferir > $this->saldo) {
-            echo "Saldo Indisponivel";
-        } else {
-            $this->sacar($valorATransferir);
-            $contaDestino->depositar($valorATransferir);
-        }
-    }
 
     public function recuperarSaldo(): float
     {
@@ -79,5 +69,9 @@ class Conta
     {
         return $this->titular->recuperarCpf();
     }
-}
 
+    abstract function percentualTarifa(): float
+
+
+
+}
