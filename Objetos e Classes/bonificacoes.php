@@ -2,9 +2,10 @@
 
 require_once 'autoload.php';
 
-use Alura\Banco\MOdelo\Funcionario\Funcionario;
+use Alura\Banco\Modelo\Funcionario\Funcionario;
 use Alura\Banco\Modelo\Cpf;
 use Alura\Banco\Service\ControladorDeBonificacoes;
+use Alura\Banco\Modelo\Funcionario\Gerente;
 
 $umFuncionario = new Funcionario(
     'Pedro',
@@ -13,7 +14,7 @@ $umFuncionario = new Funcionario(
     1000
 );
 
-$umaFuncionaria = new Funcionario(
+$umaFuncionaria = new Gerente(
     'Ana Clara',
     new Cpf('123.543.434-84'),
     'Jornalista',
