@@ -70,7 +70,7 @@ class Conta
         return $this->titular->recuperarCpf();
     }
 
-    abstract function percentualTarifa(): float
+    abstract  function percentualTarifa(): float;
 
 
 
