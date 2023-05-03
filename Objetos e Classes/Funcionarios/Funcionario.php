@@ -3,7 +3,8 @@
 namespace Funcionarios;
 
 use Funcionarios\Time;
-use Funcionarios\Cargo;
+use Funcionarios\Cargo\Cargo;
+use Funcionarios\Cargo\Gestor;
 use Funcionarios\Setor;
 
 

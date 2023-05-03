@@ -1,6 +1,6 @@
 <?php
 
-namespace Funcionarios;
+namespace Funcionarios\Cargo;
 
 class Cargo
 {
@@ -13,5 +13,10 @@ class Cargo
         $this->nomeCargo = $nomeCargo;
         $this->permissao = $permissao;
         $this->salario = $salario;
+    }
+
+    public function publicar(string $mensagem)
+    {
+        echo "Você é um funcionario comum ${$mensagem}";
     }
 }
