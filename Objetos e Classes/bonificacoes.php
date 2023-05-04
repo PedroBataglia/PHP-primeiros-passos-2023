@@ -14,6 +14,8 @@ $umFuncionario = new Desenvolvedor(
     1000
 );
 
+$umFuncionario->sobeDeNivel();
+
 $umaFuncionaria = new Gerente(
     'Ana Clara',
     new Cpf('123.543.434-84'),
