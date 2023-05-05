@@ -21,4 +21,17 @@ $timeJDG = new Time(
         'Missing'));
 $novaRegiao = new Regiao('LPL', 'China', 'Liga Major', $timeJDG);
 
-var_dump($novaRegiao);
+$timeLoud = new Time(
+    'Loud',
+    new Titulos(
+        2,
+        0,
+        0),
+    new LineUp(
+        'Robo',
+        'Croc',
+        'Tinows',
+        'Route',
+        'Ceos'));
+
+$regiaoBrasileira = new Regiao('CBL', 'Brasil', 'Liga Minor', $timeLoud);

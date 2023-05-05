@@ -18,4 +18,24 @@ class LineUp
         $this->adc = $adc;
         $this->sup = $sup;
     }
+
+    public function recuperaTop()
+    {
+        return $this->top;
+    }
+
+    public function recuperaJg()
+    {
+        return $this->jg;
+    }
+
+    public function recuperaMid()
+    {
+        return $this->adc;
+    }
+
+    public function recuperaSup()
+    {
+        return $this->sup;
+    }
 }

@@ -24,6 +24,21 @@ class Regiao
         return $this->nome;
     }
 
+    public function recuperaLocal()
+    {
+        return $this->local;
+    }
+
+    public function recuperaTipo()
+    {
+        return $this->tipo;
+    }
+
+    public function recuperaTime()
+    {
+        return $this->time;
+    }
+
     protected function validaNome(string $nomeRegiao)
     {
         if (strlen($nomeRegiao) > 3) {
