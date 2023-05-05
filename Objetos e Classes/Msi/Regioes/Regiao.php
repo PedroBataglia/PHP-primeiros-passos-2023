@@ -3,7 +3,7 @@ namespace Msi;
 
 use Msi\Time;
 
-class Regiao
+abstract class Regiao
 {
     protected string $nome;
     protected string $local;
@@ -46,6 +46,8 @@ class Regiao
             exit();
         }
     }
+
+    abstract public function vagasMsi();
 
 
 

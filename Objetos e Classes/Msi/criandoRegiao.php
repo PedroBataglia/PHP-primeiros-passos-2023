@@ -2,7 +2,7 @@
 
 require_once 'loadfile.php';
 
-use Msi\Regiao;
+use Msi\{Regiao, RegiaoMajor, RegiaoMinor};
 use Msi\Time;
 use Msi\Titulos;
 use Msi\LineUp;
@@ -19,7 +19,7 @@ $timeJDG = new Time(
         'Knight',
         'Ruler',
         'Missing'));
-$novaRegiao = new Regiao('LPL', 'China', 'Liga Major', $timeJDG);
+$novaRegiao = new RegiaoMajor('LPL', 'China', 'Liga Major', $timeJDG);
 
 $timeLoud = new Time(
     'Loud',
@@ -34,4 +34,4 @@ $timeLoud = new Time(
         'Route',
         'Ceos'));
 
-$regiaoBrasileira = new Regiao('CBL', 'Brasil', 'Liga Minor', $timeLoud);
+$regiaoBrasileira = new RegiaoMinor('CBL', 'Brasil', 'Liga Minor', $timeLoud);
