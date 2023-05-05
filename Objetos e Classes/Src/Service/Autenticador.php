@@ -2,6 +2,7 @@
 
 namespace Alura\Banco\Service;
 
+use Alura\Banco\MOdelo\Autenticavel;
 
 class Autenticador
 {
