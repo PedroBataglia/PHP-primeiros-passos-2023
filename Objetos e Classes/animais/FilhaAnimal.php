@@ -9,4 +9,6 @@ use Animais\Humano;
 $princesa = new Cachorro('Princesa',
         new Humano('Carlos', '23', 'Engenheiro'), 'PitBull', 7, 110);
 
-var_dump($princesa);
+//var_dump($princesa);
+
+echo $princesa;

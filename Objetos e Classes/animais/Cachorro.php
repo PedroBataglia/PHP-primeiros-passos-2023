@@ -62,4 +62,9 @@ class Cachorro
     {
         return $this->peso;
     }
+
+    public function __toString(): string
+    {
+        return "nome: $this->nome, raça: $this->raca, idade: $this->idade, peso: $this->peso kg";
+    }
 }
