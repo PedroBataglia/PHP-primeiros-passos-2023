@@ -9,6 +9,7 @@ $outroEndreco = new Endereco('Rio', 'Centro', 'Silveira', '498');
 
 echo $umEndereco.PHP_EOL;
 
+echo $umEndereco->cidade.PHP_EOL;
 /**
  * @var TYPE_NAME $umEndereco
  */

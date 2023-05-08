@@ -2,8 +2,13 @@
 
 namespace Alura\Banco\Modelo;
 
+/**
+ * @property-read $nome
+ * @property-read $cpf
+ */
 class Pessoa
 {
+    use AcessoPropriedades;
 
     protected $nome;
     protected $cpf;
