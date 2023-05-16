@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4d7be8-68b0-4338-8df4-a71d37f2e9c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/juntandoArrays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/ArrayMap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/ArrayRecursive.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/mesclandoArrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/mesclandoArrays.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1682685091466" duration="3820000" />
       <workItem from="1682691379996" duration="24000" />
       <workItem from="1684174023901" duration="861000" />
-      <workItem from="1684236848162" duration="1303000" />
+      <workItem from="1684236848162" duration="2392000" />
     </task>
     <servers />
   </component>
