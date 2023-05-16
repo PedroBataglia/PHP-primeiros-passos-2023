@@ -14,5 +14,8 @@ $listaFrutas2 = array(
     'l' => 'lacos'
 );
 
-$listaDeTodasFrutas = array_merge($listaFrutas1, $listaFrutas2);
-print_r($listaDeTodasFrutas);
+$listaDeFrutas = array_merge($listaFrutas1, $listaFrutas2);
+print_r($listaDeFrutas);
+
+$listaDeTodasAsFrutas = array_merge_recursive($listaFrutas1, $listaFrutas2);
+print_r($listaDeTodasAsFrutas);
