@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4d7be8-68b0-4338-8df4-a71d37f2e9c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/arrays/ArrayEspanhol.php" beforeDir="false" afterPath="$PROJECT_DIR$/arrays/ArrayEspanhol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays/arrayKeyExists.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Estudos/Alura/PHP/base PHP&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Estudos/Alura/PHP/PHP excecoes&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -89,7 +90,8 @@
       <workItem from="1682685091466" duration="3820000" />
       <workItem from="1682691379996" duration="24000" />
       <workItem from="1684174023901" duration="861000" />
-      <workItem from="1684236848162" duration="2712000" />
+      <workItem from="1684236848162" duration="4029000" />
+      <workItem from="1684254128752" duration="2404000" />
     </task>
     <servers />
   </component>
